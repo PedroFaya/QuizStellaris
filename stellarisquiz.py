@@ -79,7 +79,40 @@ while True:
         else:
             print('Invalid Option')
 
-        print('Q3. AA ')
+        print('Q3. You have a problematic neightbour. How do you deal with it?')
+        print('1. I wont care as long as my research is left in peace')
+        print('2. Pray for his soul. The divine will change his ways')
+        print('3. Nothing dramatic, seeing he has the same right to act freely as myself')
+        print('4. I will use of my authorithy to make him regret')
+        print('5. I will approuch him, peacefully, and discuss our misunderstanding')
+        print('6. I will challenge him in some way or another, them we will settle it')
+        print('7. Sending firebombs in his yard shall do the trick')
+        print('8. Reach him as a friend. No problem can be solved with hostile stances')
+        print('9. After visiting my house, he will be just like me')
+        apc=input('With do you choose?: ')
+        apc=int(apc)
+        if apc==1:
+            materialist+=1
+        elif apc==2:
+            religious+=1
+        elif apc==3:
+            egalitarian+=1
+        elif apc==4:
+            authoritharian+=1
+        elif apc==5:
+            pacifist+=1
+        elif apc==6:
+            militarist+=1
+        elif apc==7:
+            xenophobe+=1
+        elif apc==8:
+            xenophile+=1
+        elif apc==9:
+            gestalt+=1
+        else:
+            print('Invalid Option')
+
+        print('Q4. ')
 
             
 
